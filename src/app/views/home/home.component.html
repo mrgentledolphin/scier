@@ -1,0 +1,40 @@
+
+<app-navbar [page]="'Home'" [back]="false"></app-navbar>
+<div class="container">
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <h1>Welcome back ... ...</h1>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <h2>Favorite posts</h2>
+        </div>
+        <div class="col-md-12">
+            <ul class="list-group">
+                <li [routerLink]="['/album', 1]" class="list-group-item">Cras justo odio</li>
+                <li [routerLink]="['/album', 1]" class="list-group-item">Dapibus ac facilisis in</li>
+                <li [routerLink]="['/album', 1]" class="list-group-item">Morbi leo risus</li>
+                <li [routerLink]="['/album', 1]" class="list-group-item">Porta ac consectetur ac</li>
+                <li [routerLink]="['/album', 1]" class="list-group-item">Vestibulum at eros</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <h2>Latest posts</h2>
+        </div>
+        <div class="col-md-12">
+            <ul class="list-group">
+                <li [routerLink]="['/album', 1]" class="list-group-item">Cras justo odio</li>
+                <li [routerLink]="['/album', 1]" class="list-group-item">Dapibus ac facilisis in</li>
+                <li [routerLink]="['/album', 1]" class="list-group-item">Morbi leo risus</li>
+                <li [routerLink]="['/album', 1]" class="list-group-item">Porta ac consectetur ac</li>
+                <li [routerLink]="['/album', 1]" class="list-group-item">Vestibulum at eros</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
